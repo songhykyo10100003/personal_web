@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRUC'S WEBSITE</title>
+     <link rel="shortcut icon" href="images/iconcony.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/ef0193b0f0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/Logo 1a.jpg" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills2">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>MY PERSONAL WEBSITE</p>
+            <h1>Hola, I'm <span>Thanh Truc</span><br>Welcome to my website</h1>
+        </div>
+    </div>
+</div> 
+<!-----------about-------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/About me.jpg" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title"> About Me</h1>
+                <p>My name is Thanh Truc but you can call me by Bamboo. I am currently a third year college student at Industrial University of Ho Chi Minh City in VietNam. I have a 
+                    family of four; my dad, mum, younger brother and me. My favorite food is Banh Mi but I am not definitely a 
+                    picky eater, I eat about anything except seafoods, which I am allergic too. My strength is that I am always ready to take up new challenges. This is because I believe 
+                    that success and failures are the best way to sculpt ourselves to reach our goals. And I belive in myself and my hardwork. I am always eager to learn new things. 
+                    These are just some of the things that make me who I am. Overall, I am proud of the person I have become, and I am excited to see what the future holds.</p>
+            
+              <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('hobbies')">Hobbies</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+              </div>
+              <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>Skill 1</span><br>Install and Configure Computer Networks</li>
+                    <li><span>Skill 2</span><br>Set-Up Computer Networks</li>
+                    <li><span>Skill 3</span><br>Set-Up Computer Servers</li>
+                    <li><span>Skill 4</span><br>Maintain and Repair Computer Systems and Networks</li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="hobbies">
+                <ul>
+                    <li><span>Sports</span><br>Gym, Tennis, Swimming</li>
+                    <li><span>Reading</span><br>Mangas, fiction books</li>
+                    <li><span>Watching</span><br>Animes, romance flims</li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>2015 - 2018</span><br>Nguyen Trai Secondary School</li>
+                    <li><span>2018 - 2021</span><br>Vinh Loc High School</li>
+                    <li><span>2024 - Now</span><br>Industrial University of Ho Chi Minh City</li>
+                </ul>
+              </div>
+            </div>
+        </div>
+    </div>
+</div> 
+
+<!--------------skills------------->
+<div id="skills2">
+    <div class="container">
+        <h1 class="sub-title"> My Skills</h1>
+        <div class="skills-list">
+            <div>
+                <i class="fa-sharp fa-solid fa-network-wired"></i>
+                <h2>Install and Configure</h2>
+                <p>Network configuration you will learn how to disassemble and assemble a computer, as well as install the operating system and necessary program applications.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-server"></i>
+                <h2>Set-Up Computer Networks</h2>
+                <p>Setting Up Computer Servers will teach you how to create network cables and configure the network. You will learn how to configure the router and terminate and connect cables for a workstation.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-globe"></i>
+                <h2>Set-Up Computer Servers</h2>
+                <p>Setting Up Computer Servers will teach you how to set up computer servers. This includes setting up user access, configuring network services, and performing testing and documentation procedures.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-screwdriver-wrench"></i>
+                <h2>Maintain & Repair <br> Computer Systems and Networks</h2>
+                <p>It is a plan and prepare for the maintenance of computer systems and networks and inspect and test configured and repaired computer systems and networks.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----------projects------------->
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="projects-list">
+            <div class="projects">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you to the talented people around the world. Download it from play store.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="projects">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The app connects you to the talented people around the world. Download it from play store.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="projects">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>The app connects you to the talented people around the world. Download it from play store.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!--------------contact-------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>thanhtrucwork@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>0123.456.6789</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/caychenon1212/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/THANHTRUC_CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right"> 
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Write Your Name" required>
+                <input type="email" name="Email" placeholder="Write Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Write Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+         </div>
+      </div>
+   </div>
+   <div class="copyright">
+    <p>“Dear Ms.Hoai, if you see my personl introduction website, please give me a high mark.” — Thanh Truc cute :>> <i class="fa-sharp fa-solid fa-heart"></i></p>
+   </div>
+</div>
+
+
+<script>
+
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+
+</script>
+
+<script>
+ 
+ var sidemenu = document.getElementById("sidemenu");
+
+ function openmenu(){
+    sidemenu.style.right = "0";
+ }
+ function closemenu(){
+    sidemenu.style.right = "-200px";
+ }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzHgZ7ab2NLd_7W8MKaeyi4yUsZILGFACpIGkiNm29C515Ay-4zKEsTJJlV8BBcUpw7RQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent succesfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
